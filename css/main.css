@@ -548,7 +548,6 @@ footer{
 
 .dropdown-item{
     display: inline-block;
-    float: right;
     height: 30px;
     z-index: 999;
     position: relative;
@@ -588,4 +587,7 @@ a svg:hover{
   transition: .3s;
 }
 
+.texto{
+  
+}
 
