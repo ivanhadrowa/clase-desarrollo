@@ -548,7 +548,7 @@ footer{
 
 .dropdown-item{
     display: inline-block;
-    height: 30px;
+    height: 34px;
     z-index: 999;
     position: relative;
 }
@@ -580,6 +580,15 @@ footer{
   text-align: left;
 }
 
+.dropdown-item a{
+  margin-bottom: 5px;
+
+}
+
+.navbar .dropdown-item:hover{
+  color: var(--secundarioClaro);
+    transform: scale(1.2);
+}
 
 
 a svg:hover{
@@ -587,7 +596,57 @@ a svg:hover{
   transition: .3s;
 }
 
-.texto{
-  
+.texto-nosotros-container{
+  margin: 0 auto;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
 }
 
+@media(min-width: 1200px){
+  .texto-nosotros-container{
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .texto-mision,
+.texto-vision,
+.texto-valores{
+  width: 500px;
+  margin: 0 20px;
+  text-align: center;
+  
+}
+.texto-mision p,
+.texto-vision p,
+.texto-valores p{
+  font-size: 2.3rem;
+  
+}
+.texto-mision h3,
+.texto-vision h3,
+.texto-valores h3{
+  font-size: 3rem;
+  text-align: center;
+}
+
+}
+
+
+.denis p {
+  text-align: center;
+  width: 80%;
+}
+
+@media (min-width: 550px){
+.texto-servicios p{
+  width: 90%;
+  justify-content: center;
+  margin-left: 5px;
+}
+.texto-servicios h3{
+  width: 90%;
+  justify-content: center;
+  margin-left: 5px;
+}
+}
