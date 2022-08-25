@@ -43,6 +43,7 @@ html {
   }
   main{
     overflow-X: hidden;
+
   }
 
   body::-webkit-scrollbar{
@@ -54,6 +55,8 @@ html {
     color: var(--negro);
   
   }
+
+  hr{width: 100%; margin: 0 auto;}
 
   a{
     text-decoration: none;
@@ -181,6 +184,7 @@ html {
   flex-direction: column;
   justify-content: center;
   background-color: #eff5f5;
+  padding-top: 5rem;
 }
 
 .titulo-servicios{
@@ -261,8 +265,16 @@ h2.titulo-servicios{
   }
   h2.titulo-servicios{
     font-size: 4rem;
+
   }
 }
+
+h2.encontranos{
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
 
 
 
@@ -333,7 +345,7 @@ h2.titulo-servicios{
   border-radius: 1rem;
 }
 
-@media (min-width:550px){
+@media (min-width:250px){
   .img-denis{
     max-width: 350px;
   }
@@ -343,7 +355,7 @@ h2.titulo-servicios{
   h4.nombre-denis{
     font-size: 3rem;
     text-transform: uppercase;
-   
+    padding: 2rem 0 0 1rem;
     text-align: center;
   }
   .nosotros h2{
@@ -361,6 +373,7 @@ h2.titulo-servicios{
     padding: 1rem;
     background-color: var(--secuandario);
     border-radius: 1rem;
+    margin-top: 1rem;
   }
   
   
@@ -507,7 +520,7 @@ h2#contacto{
 }
 
 footer{
-  margin-top: 170px;
+  padding: 5rem;
   text-align: center;
   width: 100%;
 }
@@ -639,6 +652,7 @@ a svg:hover{
 .denis p {
   text-align: center;
   width: 80%;
+  margin: 1rem 0;
 }
 
 @media (min-width: 550px){
@@ -655,9 +669,7 @@ a svg:hover{
 }
 
 
-section.nosotros{
-  margin-bottom: 5rem;
-}
+
 
 
 
@@ -712,3 +724,38 @@ section.nosotros{
   }
 }
 
+.contenedor-mapa{
+  width: 100%;
+  margin: 0 auto;
+}
+.mapa{
+  
+  width: 100%;
+}
+
+
+@media (max-width: 549px){
+  .texto-servicios{margin: 2rem 0;}
+  h2.titulo-servicios{margin-bottom: 2rem;}
+  .nosotros h2{margin-bottom: 2rem;}
+  .texto-vision, .texto-mision, .texto-valores{margin-bottom: 2rem;}
+}
+
+h2.nosotross{
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 600px){
+  h2.nosotross{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+  }
+}
+
+.formulario-contenedor{
+  height: 550px;
+}
