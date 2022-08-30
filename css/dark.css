@@ -1,9 +1,11 @@
 #modo{
-    width: 30px;
+    width: 70px;
     display: flex;
     margin: 0 auto;
     cursor: pointer;
     padding: 0;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .dark{
@@ -70,4 +72,10 @@ color: rgb(221, 221, 221);
     header{justify-content: space-between; align-items: center;}
 }
 
+.moon-stars-fill path{
+    color: #101820 !important;
+}
 
+.lunita{
+    width: 13px;
+}

@@ -17,12 +17,14 @@ function animatedBars(){
 
 let modo = document.querySelector('#modo');
 let body = document.body;
+let boton = document.querySelector('.bi-toggle-on')
 
 
 
 modo.addEventListener('click', function () {
     let valor = body.classList.toggle('dark');
     localStorage.setItem("modo", valor)
+    boton.classList.toggle('dark-mode')
 
 
 })
