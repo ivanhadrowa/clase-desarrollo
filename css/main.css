@@ -43,7 +43,7 @@ html {
   }
   main{
     overflow-X: hidden;
-
+    background-color: #eff5f5;
   }
 
   body::-webkit-scrollbar{
@@ -82,8 +82,10 @@ html {
   header{
     display: flex;
     justify-content: center;
-    margin: 1rem;
     background-color: var(--blanco);
+    width: 100%;
+    padding: 1rem;
+  
   }
 
 
@@ -117,7 +119,7 @@ html {
     background-color: #101820;
     justify-content: space-around;
     align-items: center;
-    margin-top: 1.5rem;
+ 
   }
   .navbar a, .dropdown-item {
     margin: 5px auto;
@@ -184,7 +186,7 @@ html {
   flex-direction: column;
   justify-content: center;
   background-color: #eff5f5;
-  padding-top: 5rem;
+  
 }
 
 .titulo-servicios{
@@ -730,7 +732,7 @@ a svg:hover{
   margin: 0 auto;
 }
 .mapa{
-  
+  background: white;
   width: 100%;
 }
 
@@ -759,6 +761,7 @@ h2.nosotross{
 
 .formulario-contenedor{
   height: 550px;
+  background: white;
 }
 
 
@@ -803,3 +806,9 @@ p.texto-footer{
     padding-bottom: 2rem;
   }
 }
+
+.modo svg{
+  margin-top: 15px;
+}
+
+

@@ -10,10 +10,14 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/dark.css">
+
 </head>
-<body>
+<body class="dark">
     <header>
         <a class="a-header" href="../index.html"><img class="logo-contenedores" src="../logo/LOGO PNG.png" alt="logo png"></a> 
+
+        
         <div class="bars__menu">
             <span class="line1__bars-menu"></span>
             <span class="line2__bars-menu"></span>
@@ -43,12 +47,20 @@
         <a href="nosotros.html">NOSOTROS</a>
 
         <a href="contacto.html">CONTACTO</a>
+
     </div>
 </nav>
 
 
     <main>
+
         <section class="servicios">
+            <div class="modo" id="modo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-toggle-on" viewBox="0 0 16 16">
+                    <path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/>
+                  </svg>
+            </div>
+    
             <div class="titulo-servicios">
                 <h2 class="titulo-servicios" data-aos="fade-down" data-aos-duration="1000">SERVICIOS</h2>
             </div>
@@ -101,5 +113,6 @@
         AOS.init();
       </script>
     <script src="../js/script.js"></script>
+    <script src="https://kit.fontawesome.com/0dcb8a9f6c.js" crossorigin="anonymous"></script>
 </body>
 </html>

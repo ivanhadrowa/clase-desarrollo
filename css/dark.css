@@ -1,0 +1,63 @@
+#modo{
+    width: 30px;
+    margin: 1rem auto;
+    align-items: center;
+    cursor: pointer;
+    padding: 0;
+}
+
+.dark{
+    background: #101820;
+}
+
+.dark .titulo-servicios{
+    color: white;
+}
+
+.dark section.servicios{
+    background-color: #101820;
+}
+
+.dark .navbar{
+    background-color: #121212;
+}
+
+.dark h3{
+    color: rgb(230, 230, 230);
+}
+.dark p{
+    color: rgb(209, 206, 206);
+}
+
+.dark footer{
+    background-color: #121212;
+}
+
+.dark .texto-footer{
+    background-color: #121212;
+}
+
+.dark #modo svg{
+color: rgb(221, 221, 221);
+}
+
+.dark .mapa{
+    background: #101820;
+}
+
+.dark .formulario-contenedor{
+    background: #101820;
+}
+
+.dark .modo{
+    background: #101820;
+}
+.dark main{
+    background: #101820;
+}
+@media (max-width : 600px){
+    header{justify-content: space-between; align-items: center;}
+
+  }
+
+

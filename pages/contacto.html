@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/dark.css">
 </head>
-<body>
+<body class="dark">
     <header>
         <a class="a-header" href="../index.html"><img class="logo-contenedores" src="../logo/LOGO PNG.png" alt="logo png"></a> 
         <div class="bars__menu">
@@ -48,14 +49,19 @@
 
 
     <main>
-        <section class="mapa">
-            <div class="mapa">
+        <div class="modo" id="modo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-toggle-on" viewBox="0 0 16 16">
+                <path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/>
+              </svg>
+        </div>
+        <section class="mapa dark ">
+            <div class="mapa dark">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22006.635572335003!2d-57.95731563287344!3d-34.92386312273701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1660692749524!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
         
         
-        <div class="formulario-contenedor" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="formulario-contenedor " data-aos="zoom-in-up" data-aos-duration="1000">
             <form id="form" class="formulario">
                 <fieldset>
                     <legend>Contactanos</legend>
@@ -92,7 +98,7 @@
 
     </main>
 
-    <footer>
+    <footer class="dark">
         <div class="footer-img">
             <img src="../logo/KEEPBOX BLANCO PNG.png" alt="">
         </div>

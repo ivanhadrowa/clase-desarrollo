@@ -13,3 +13,25 @@ function animatedBars(){
     line3__bars.classList.toggle("activeline3__bars-menu");
     desplegable.classList.toggle("activemenu__desplegable");
 }
+
+
+let modo = document.querySelector('#modo');
+let body = document.body;
+
+
+
+modo.addEventListener('click', function () {
+    let valor = body.classList.toggle('dark');
+    localStorage.setItem("modo", valor)
+
+
+})
+
+let valor = localStorage.getItem("modo")
+
+if (valor=="true"){
+    body.classList.add("dark")
+}else{
+    body.classList.remove("dark")
+}
+
