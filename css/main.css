@@ -807,8 +807,9 @@ p.texto-footer{
   }
 }
 
-.modo svg{
-  margin-top: 15px;
-}
 
+
+header{
+  align-items: center;
+}
 
